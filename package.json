@@ -1,0 +1,20 @@
+{
+  "name": "sol_pools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"cd build/ && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.3",
+    "@solana/web3.js": "^1.76.0",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0",
+    "discord.js": "^14.11.0",
+    "requests": "^0.3.0"
+  }
+}
